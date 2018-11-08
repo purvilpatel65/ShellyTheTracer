@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="230dp"
+    android:layout_height="250dp"
+    android:layout_gravity="center"
+    android:background="#2f333f"
+    android:id="@+id/levelLayout"
+    >
+
+    <TextView
+        android:id="@+id/cancelBtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="end"
+        android:text="X"
+        android:textStyle="bold"
+        android:background="@drawable/cerclebackground"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rules"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/rulesTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rules"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="12dp"/>
+
+</LinearLayout>
